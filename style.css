@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 13px;
+  line-height: 19px;
+  color: #111;
+  margin: 0;
+}
+
+.no-logo {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  color: #111;
+  background-color: #ff9900;
+  padding: 10px;
+  border-radius: 9px;
+}
+
+.no-logo:hover {
+  background-color: #ff9900;
+  color: #111;
+  text-decoration: none;
+}
+
+.main-page {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signin-block {
+  display: block;
+  border: 1px #ddd solid;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 20px 26px;
+  margin-bottom: 22px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+  margin-top: 0;
+}
+
+label {
+  padding: 0 2px;
+  font-weight: 700;
+}
+
+input {
+  width: 100%;
+  margin-right: 0;
+
+  height: 31px;
+  padding: 3px 7px;
+  line-height: normal;
+  border: 1px solid #a6a6a6;
+  border-radius: 3px;
+
+  box-shadow: inset 0px 0.4px 0.8px 0px #a0a0a0;
+}
+
+input:focus {
+  border-color: #f88205;
+  box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+  outline: none;
+}
+
+.btn-continue {
+  border: 0.5px solid #adb1b8;
+
+  border-radius: 3px;
+
+  border-color: #a88734 #9c7e31 #846a29;
+
+  height: 100%;
+  width: 100%;
+  color: #111;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  text-align: center;
+
+  background-image: linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75));
+}
+
+.btn-text {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  color: #111;
+}
+
+.btn-continue:hover {
+  background: rgba(240, 193, 75, 0.9);
+}
+.btn-continue:active {
+  background: #f0c14b;
+}
+
+.input-box {
+  margin-bottom: 14px;
+}
+
+.conditions {
+  width: 100%;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 18px;
+}
+
+.main-page {
+  width: 340px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #0066c0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #c45500;
+}
+
+.continue {
+  margin-bottom: 22px;
+}
+
+i {
+  width: 7px;
+  height: 7px;
+  color: #495057c5;
+}
+
+h5 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #e9ecef;
+  line-height: 1.6px;
+  margin: 10px 0 20px;
+  color: #767676;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+h5 span {
+  background: #fff;
+  padding: 0 8px 0 7px;
+}
+
+/* ////////////////////////////////////////// */
+
+.btn-create-account {
+  border-radius: 3px;
+  border-color: #8d9096;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  padding: 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+  background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
+  padding: 0 10px 0 11px;
+  margin-bottom: 26px;
+}
+
+.btn-create-text {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  color: #111;
+}
+
+.btn-create-account:hover {
+  background: linear-gradient(to bottom, #e7eaf0, #d9dce1);
+}
+
+.divider-line {
+  margin-bottom: -18px;
+  height: 44px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.02) 3px,
+    transparent
+  );
+}
+
+.terms {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  color: #111;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.text-footer {
+  display: flex;
+  justify-content: center;
+  color: #555;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
+
+/* //////////////////////////////////////////////// */
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: #0066c0;
+
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 13px;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dropdown-content a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #c45500;
+}
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
